@@ -89,17 +89,12 @@ This is a **Banking Application** built using **Spring Boot** and **MySQL**. It 
 ## API Endpoints
 ### 1. **Customer Onboarding**
 ```http
-POST /api/customers
+POST /onboard
 ```
 
 ### 2. **Transfer Money**
 ```http
-POST /api/accounts/transfer
-```
-
-### 3. **View Transactions**
-```http
-GET /api/transactions/{accountId}
+POST /transfer
 ```
 
 ## Future Enhancements
